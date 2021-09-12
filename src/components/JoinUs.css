@@ -1,0 +1,13 @@
+
+.color{
+    background-color: aqua;
+}
+
+.struct{
+    display: flex;
+    margin: 100px;
+    width: 250px;
+    height: 98px;
+    gap: 25%;
+    border: 1px solid rgb(2, 31, 2);
+}

@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+import JoinUs from "./components/JoinUs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+    <div className="struct">
+       
+      <div>
+      <JoinUs btn={"JOIN US"}/>
+      <JoinUs btn={"LOGIN"}/>
+      <JoinUs btn={"SEARCH"}/>
+      <JoinUs btn={"HOME"}/>
+      </div>
+     
+      <div>
+      <JoinUs btn={"SETTINGS"}/>
+      <JoinUs btn={"CONTACT US"}/>
+      <JoinUs btn={"HELP"}/>
+      <JoinUs btn={"DOWNLOAD"}/>
+      </div>
+
+      </div>
+  
+   
+     
   );
 }
 
